@@ -14,7 +14,7 @@
             </p>
             {# <form method="POST" action="{{ url_for('user.predict_iris') }}"> #}
             <form method="POST" action="#">
-                {{ csrf_token() }}
+                {# {{ csrf_token() }} #}
                 <div class="row g-3 mb-3">
                     <div class="col-md-6">
                         <label for="sepal_length" class="form-label">세팔 길이 (cm)</label>
